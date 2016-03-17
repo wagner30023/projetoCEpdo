@@ -3,6 +3,7 @@
 require_once './db/Conexao.php';
 
 try {
+    // seleciona aluno
     $query = "(select * from aluno )";
     $stmt = $conexao->prepare($query);
     $stmt->execute();

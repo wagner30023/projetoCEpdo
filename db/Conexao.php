@@ -1,5 +1,5 @@
 <?php
-
+// conexao 
 try {
     $conexao = new \PDO("mysql:host=localhost;dbname=turma", "root", "k299");
 } catch (Exception $error) {

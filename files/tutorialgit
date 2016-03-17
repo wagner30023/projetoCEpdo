@@ -2,16 +2,13 @@ git@github.com:wagner30023/pdoCodeEducation.git
 
 …or create a new repository on the command line
 
-echo "# pdoCodeEducation" >> README.md
+echo "# projetoCEpdo" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin git@github.com:wagner30023/pdoCodeEducation.git
+git remote add origin git@github.com:wagner30023/projetoCEpdo.git
 git push -u origin master
 
 
-…or push an existing repository from the command line
-
-
-git remote add origin git@github.com:wagner30023/pdoCodeEducation.git
+git remote add origin git@github.com:wagner30023/projetoCEpdo.git
 git push -u origin master
